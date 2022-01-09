@@ -1,0 +1,33 @@
+ * {
+     box-sizing: border-box;
+     padding: 0px;
+     margin: 0px;
+     border: 1px solid red;
+ }
+ .header{
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .mainBox{
+     display: flex;
+     flex-direction: column;
+     border: 2px solid green;
+ }
+ .firstBox{
+     display:flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin: 5%;
+ }
+ .secondBox{
+     text-align: center;
+ }
+ .secondBoxFlex{
+     display:flex;
+     justify-content: center;
+     gap: 5rem;
+ }
+ .thirdBox{
+    display:flex;
+    
+ }
