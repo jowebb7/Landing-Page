@@ -2,16 +2,32 @@
      box-sizing: border-box;
      padding: 0px;
      margin: 0px;
-     border: 1px solid red;
+     text-decoration: none;
+  
  }
  .header{
      display: flex;
-     justify-content: space-evenly;
+     justify-content:  space-evenly;
+     background-color: #1F2937;
+     padding-top: 1rem;
  }
+ 
+ .headerLogo{
+     font-size: 24px;
+     color: #f9faf8;
+ }
+ .headerLinks * {
+     font-size: 16px;
+     color: #e5e7eb;
+     padding: 1rem;
+     
+ }
+ 
  .mainBox{
      display: flex;
      flex-direction: column;
-     border: 2px solid green;
+     background-color: #1F2937;
+
  }
  .firstBox{
      display:flex;
