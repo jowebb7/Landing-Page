@@ -34,6 +34,31 @@
      flex-direction: row;
      justify-content: space-evenly;
      margin: 5%;
+     gap: 10%;
+     margin: 10%;
+ }
+ .firstBoxFlex{
+     flex-wrap: wrap;
+     flex:1;
+ }
+
+ .heroText{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+ }
+ .secondaryText{
+    font-size: 18px;
+    color: #e5e7eb;
+ }
+ .imgPlace{
+     background-color: grey;
+     align-self: center;
+     padding: 4rem;
+     color: #e5e7eb;
+     flex:1;
+     text-align: center;
+     
  }
  .secondBox{
      text-align: center;
