@@ -100,7 +100,8 @@
      justify-content: center;
      height: 145px;
      width: 145px;
-     margin: auto -2%;
+     margin-left: -2%;
+     margin-bottom: 20%;
 
  }
  .imgs{
@@ -109,12 +110,12 @@
      width: 145px;
      text-align: center;
      border-radius: 6px;
-     margin-bottom: 5px;
+     margin-bottom: 10px;
  }
  .caption{
     color:#1F2937;
  }
  .thirdBox{
-    display:flex;
-    
+    display:flex;  
+    background-color: #e5e7eb;
  }
