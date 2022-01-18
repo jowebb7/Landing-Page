@@ -80,11 +80,39 @@
  }
  .secondBox{
      text-align: center;
+     background-color: white;
+ }
+ .secondBoxTitle{
+     color: #1f2937;
+     font-size: 36px;
+     font-weight: bolder;
+     padding: 4rem;
  }
  .secondBoxFlex{
-     display:flex;
-     justify-content: center;
+     display: flex;
      gap: 5rem;
+     background-color: white;
+     margin: -2% 15%;
+     justify-content: center;
+ }
+ .imageWithCap{
+     align-items: center;
+     justify-content: center;
+     height: 145px;
+     width: 145px;
+     margin: auto -2%;
+
+ }
+ .imgs{
+     border: 3px solid #3882f6;
+     height: 145px;
+     width: 145px;
+     text-align: center;
+     border-radius: 6px;
+     margin-bottom: 5px;
+ }
+ .caption{
+    color:#1F2937;
  }
  .thirdBox{
     display:flex;
