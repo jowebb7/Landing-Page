@@ -118,4 +118,18 @@
  .thirdBox{
     display:flex;  
     background-color: #e5e7eb;
+    justify-content: center;
+ }
+ .quoteContainer{
+    height: 50vh;
+    width: 50vw;
+ }
+ .quoteContainer * {
+     border: 2px solid red;
+ }
+ .quote{
+     font-size: 36px;
+     color: #1f2937;
+     font-style: italic;
+     font-weight: lighter;
  }
