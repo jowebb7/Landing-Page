@@ -121,15 +121,40 @@
     justify-content: center;
  }
  .quoteContainer{
+    margin-top: 8%;
     height: 50vh;
-    width: 50vw;
- }
- .quoteContainer * {
-     border: 2px solid red;
+    width: 55vw;
  }
  .quote{
      font-size: 36px;
      color: #1f2937;
      font-style: italic;
-     font-weight: lighter;
+     font-weight: 100;
+ }
+ .author{
+     font-weight: bolder;
+     text-align: end;
+ }
+ .fourthBox{
+     display: flex;
+     background-color: white;
+     justify-content: center;
+ }
+ .fourthContainer{
+     display: flex;
+     background-color: #3882f6;
+     margin: 8%;
+     height: 20vh;
+     width: 70vw;
+     border-radius: 6px;
+ }
+ .fourthText{
+     flex: 2;
+     border: 2px solid red;
+     display:flex;
+     flex-direction: column;
+ }
+ .fourthButton{
+     flex: 1;
+     border: 2px solid red;
  }
