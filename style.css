@@ -144,17 +144,43 @@
      display: flex;
      background-color: #3882f6;
      margin: 8%;
-     height: 20vh;
+     height: 15vh;
      width: 70vw;
      border-radius: 6px;
  }
  .fourthText{
      flex: 2;
-     border: 2px solid red;
      display:flex;
      flex-direction: column;
+     justify-content: center;
+     margin-left: 10vw;
+ }
+ .fourthMain{
+     color: white;
+     font-weight: bolder;
+ }
+ .fourthSecondary{
+     color: #e5e7eb;
  }
  .fourthButton{
      flex: 1;
-     border: 2px solid red;
+     align-self: center;
+     text-align: center;
+ }
+ .doIt{
+    background-color: #3882f6;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 5px 20px;
+ }
+ .footer{
+     display: flex;
+     background-color: #1F2937;
+     justify-content: center;
+     color: #e5e7eb;
+ }
+ .footer * {
+    padding: 30px 8px;
  }
